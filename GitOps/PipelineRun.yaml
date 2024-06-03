@@ -5,13 +5,13 @@ metadata:
 spec:
   params:
     - name: GIT_URL
-      value: "https://github.com/ravitarman/dotnet-app"
+      value: "https://github.com/ravitarman/dotnet-app.git"
     - name: REGISTRY
       value: ravitarman
     - name: IMAGE_NAME
       value: dotnet-app
     - name: IMAGE_TAG
-      value: v1
+      value: v2
     - value: user5-application
   pipelineRef:
     name: user5-dotnet-app
